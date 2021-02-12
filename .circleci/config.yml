@@ -7,7 +7,7 @@ jobs:
     
     working_directory: ~/repo
 
-    step:
+    steps:
       # Step 1: obtain repo from Github
       - checkout
       # Step 2: create virtual env and install dependencies
