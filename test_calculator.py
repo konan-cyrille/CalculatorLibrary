@@ -15,4 +15,4 @@ class TestCalculator:
         assert 2 == calculator.substract(4, 2)
 
     def test_multuplication(self):
-        assert 100 == multipication(10, 10)
+        assert 100 == calculator.multiplication(10, 10)
